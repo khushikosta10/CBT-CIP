@@ -29,6 +29,7 @@ No additional installation is required! Follow these steps to run the project:
 
 ## Folder Structure
 /eventliter
+
   ├── index.html     # The main HTML structure
   ├── style.css      # The CSS file for styling the project
   └── script.js      # JavaScript for handling events and interactivity
