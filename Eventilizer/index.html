@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventLiter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>EventLiter</h1>
+    <p>Create, view, and manage your events!</p>
+  </header>
+
+  <section id="event-form">
+    <h2>Create an Event</h2>
+    <form id="create-event-form">
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name" required>
+
+      <label for="event-date">Event Date:</label>
+      <input type="date" id="event-date" required>
+
+      <label for="event-time">Event Time:</label>
+      <input type="time" id="event-time" required>
+
+      <label for="event-location">Location:</label>
+      <input type="text" id="event-location" required>
+
+      <button type="submit">Add Event</button>
+    </form>
+  </section>
+
+  <section id="event-list">
+    <h2>Upcoming Events</h2>
+    <ul id="events"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
