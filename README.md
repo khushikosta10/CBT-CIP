@@ -1,3 +1,52 @@
+# Eventilizer
+
+**Eventilizer** is a simple and beginner-friendly web project aimed at developing a functional event listing website. Users can create, view, and manage events in an intuitive way. This project introduces the basics of front-end web development using HTML, CSS, and basic JavaScript.
+
+## Features
+
+- **Event Creation**: Users can easily create events by filling out a form with details like the event name, date, time, and location.
+- **Event Listing**: Displays a list of upcoming events in a clean and organized manner. Each event entry shows essential details at a glance.
+- **Event Deletion**: Users can delete events from the listing.
+
+## Technologies Used
+
+- **HTML**: For structuring the website.
+- **CSS**: For styling the interface to make it aesthetically pleasing.
+- **JavaScript**: To handle dynamic features like adding and removing events.
+
+## How to Use
+
+1. Clone or download this repository to your local machine.
+2. Open the `index.html` file in your preferred browser.
+3. Fill out the "Create an Event" form with the event name, date, time, and location.
+4. Click **Add Event** to add the event to the event list.
+5. To remove an event, click the **Delete** button next to the respective event.
+
+
+## Installation
+
+No additional installation is required! Follow these steps to run the project:
+
+## Folder Structure
+/eventliter
+  ├── index.html     # The main HTML structure
+  ├── style.css      # The CSS file for styling the project
+  └── script.js      # JavaScript for handling events and interactivity
+
+## Future Improvements
+
+- **Event Editing**: Add the ability to edit event details after creation.
+- **Event Filtering**: Implement filters to sort events based on date, location, or name.
+- **Responsive Design**: Make the design mobile-friendly with responsive layouts.
+- **Persistent Storage**: Save events to local storage so that events persist even after refreshing the page.
+
+## Contributing
+
+If you want to contribute to this project, feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+
+
+
 # Blogger Page - Dynamic Blogging Platform
 
 ## Project Description
